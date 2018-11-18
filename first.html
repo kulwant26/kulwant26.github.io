@@ -1,0 +1,153 @@
+<html>
+<head>
+<style>
+body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:black;
+           background:url(sign.png) no-repeat center fixed;
+          background-size:cover;
+           }
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.cancelbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+font-size:20px;
+}
+.signupbtn {
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+  font-size:20px;
+  text-decoration:none;
+  
+}
+.signupbtn:hover {
+     background-color:black;
+    color:white;
+    }
+.cancelbtn:hover {
+    background-color:white;
+    color:black;
+}
+
+.left {
+    
+    padding: 100px;
+    border-radius:none;
+    
+}
+.log{
+         position:absolute;
+         left:60%;    
+        top:15%;
+       width:50%;
+}
+.login{
+background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  font-size:20px;
+  
+}
+.login:hover {
+    background-color:skyblue;
+    color:black;
+}
+.button {
+    background-color: black;
+    border: none;
+    border-radius:45px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+transition: all 0.3s ease 0s;
+   position: absolute;
+    top: 75%;
+    left: 65%;
+   
+    font-family:Colonna MT;
+ box-shadow: 0px 8px 15px rgba(0,0,0,1);
+}
+.button:hover {
+  background-color: white;
+
+  color: black;
+ transform: translateY(7px);
+}
+            
+</style>
+</head>
+
+<body>
+
+<div class="left">
+<form>
+  
+    <h1><font color="white">Sign up</font></h1>
+       
+         <b><font color="white" size=5>Username</font></b><br>
+        <input type="text" name="username" placeholder="username" required><br>
+        <b><font color="white" size=5>Email</font></b><br>
+        <input type="text" name="email" placeholder="E-mail" required><br>
+       <b><font color="white" size=5>Password</font></b><br>
+         <input type="password" name="psw" placeholder="password" required><br>
+         <b><font color="white" size=5>Repeat Password</font></b><br>
+         <input type="password" placeholder="Repeat Password" name="psw-repeat" required><br>
+    
+
+     <button class="cancelbtn" onclick="window.location.href='finalfirst.html'">Submit</button>
+    <button  class="signupbtn">Cancel</button> 
+    </div>
+<div class="log">
+<form>
+  
+    <h1><font color="white">Log In</font></h1>
+       
+         <b><font color="white" size=5>Username</font></b><br>
+        <input type="text" name="username" placeholder="username" required><br>
+       <b><font color="white" size=5>Password</font></b><br>
+         <input type="password" name="psw" placeholder="password" required><br>
+      
+      <button  class="login" onclick="window.location.href='finalfirst.html'">Log In</button>
+    </div>
+
+
+
+</form>       
+<a  class="button" href="start.html">EXIT</a>
+</body>
+</html>
